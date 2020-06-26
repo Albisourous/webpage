@@ -46,6 +46,7 @@ class FlightInfo  extends Component{
         return (
             <div>
                 <div><br/></div>
+                {num}
                 {flightData}
             </div>
         )
