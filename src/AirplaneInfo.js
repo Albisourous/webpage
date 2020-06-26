@@ -6,7 +6,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import './info.css';
 
-const num = window.location.pathname.substring(11).replace(/%20/gi, " ");
+const num = window.location.pathname.substring(13).replace(/%20/gi, " ");
 const info = port.data.filter(data => data.construction_number == num);
 const airplaneData = info.map( (data, index, airport_name) => {
     return (

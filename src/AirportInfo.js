@@ -5,7 +5,7 @@ import './setup.css';
 import './info.css';
 import ButtonBase from "@material-ui/core/ButtonBase";
 
-const currentLocation = window.location.pathname.substring(10).replace(/%20/gi, " ");
+const currentLocation = window.location.pathname.substring(12).replace(/%20/gi, " ");
 const info = port.data.filter(data => data.airport_name == currentLocation);
 const airportData = info.map( (data, index, airport_name) => {
     return (

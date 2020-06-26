@@ -6,7 +6,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import './info.css';
 
-const num = window.location.pathname.substring(9).replace(/%20/gi, " ");
+const num = window.location.pathname.substring(11).replace(/%20/gi, " ");
 const info = port.data.filter(data => data["flight"].number == num);
 const flightData = info.map( (data, index, airport_name) => {
     return (
@@ -45,7 +45,7 @@ class FlightInfo  extends Component{
             <div>
                 <div><br/></div>
                 <h1>HI</h1>
-                {num}
+                {window.location.pathname}
                 {flightData}
             </div>
         )
