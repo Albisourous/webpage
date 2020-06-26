@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: "Times New Roman";
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.member {
+    float: left;
+    width: 30%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding: 0 15px;
+    box-shadow: 0 4px 5px 0 white;
+    color: white;
+}
+
+.contact {
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    border: 10px;
+    outline: 0;
+    display: marker;
+    padding:5px;
+}
+
+.pic {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    object-fit: cover;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    display: block;
+}
+
+a {
+    color: hotpink;
+}
