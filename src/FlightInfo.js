@@ -39,13 +39,12 @@ const flightData = info.map( (data, index, airport_name) => {
     )
 });
 class FlightInfo  extends Component{
-
-
     render()
     {
         return (
             <div>
                 <div><br/></div>
+                <h1>HI</h1>
                 {num}
                 {flightData}
             </div>

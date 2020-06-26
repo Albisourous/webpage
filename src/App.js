@@ -23,28 +23,28 @@ class App extends Component {
 
                     <Router>
                         <Switch>
-                            <Route path="/airplanes" exact>
+                            <Route path="/#/airplanes" exact>
                                 <Airplanes />
                             </Route>
-                            <Route path="/airplanes/:id">
+                            <Route path="/#/airplanes/:id">
                                 <AirplaneInfo />
                             </Route>
-                            <Route path="/flights" exact>
+                            <Route path="/#/flights" exact>
                                 <Flights />
                             </Route>
-                            <Route path="/flights/:id">
+                            <Route path="/#/flights/:id">
                                 <FlightInfo />
                             </Route>
-                            <Route path="/airports" exact>
+                            <Route path="/#/airports" exact>
                                 <Airports />
                             </Route>
-                            <Route path="/airports/:id">
+                            <Route path="/#/airports/:id">
                                 <AirportInfo />
                             </Route>
-                            <Route path="/about">
+                            <Route path="/#/about">
                                 <About />
                             </Route>
-                            <Route path="/">
+                            <Route path="/#/">
                                 <Home />
                             </Route>
                         </Switch>
